@@ -1,0 +1,566 @@
+/* ***************  *************** */
+
+/* ***************共通*************** */
+html {
+  font-size:62.5%;
+}
+
+a {
+  font-weight: 600;
+  font-size: 0.9rem !important;
+}
+
+p a {
+  text-decoration: underline !important;
+  color: black !important;
+  text-decoration-color: black !important;
+  font-weight: 600;
+  font-size: 0.9rem !important;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.s-1,.s-2,.s-3,.s-4,.s-5,.s-6,.s-7 {
+  margin-top: 8%;
+}
+
+.s-1,.s-2,.s-3,.s-4,.s-5, .s-7 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span.start {
+  color: white !important;
+  background-color: #E41E51 !important;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.5em !important;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 36px !important;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 36px !important;
+}
+
+h5 {
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+/* .start-button {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  color: white !important;
+} */
+
+/* *************** ボタン *************** */
+a.start-button {
+  background-color: #E41E51 !important;
+  padding: 20px 40px 20px !important;
+  border-radius: 10px !important;
+  color: white !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
+.h-btn, .s6-btn {
+  margin-top: 40px;
+}
+
+/* ***************ヘッダーnav *************** */
+i {
+  color: black;
+  font-size: 40px;
+}
+
+.h-button {
+  float: right;
+  width: 200px;
+  margin-left: auto;
+  padding: 10px;
+}
+
+/* コピペ */
+header{
+  background: white;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 8px gray;
+  z-index: 100;
+}
+
+.g-nav{
+  width: 100%;
+  z-index: 10;
+}
+
+.g-nav-menu{
+  text-align: center;
+}
+
+.g-nav-menu li{
+  color: #fff;
+  padding: 0 30px;
+  list-style-type: none;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.fixed .g-nav-menu li{
+  line-height: 40px;
+}
+
+
+/* コピペ */
+
+/* ***************ヘッダー*************** */
+/* マナブログコピペ */
+.cover-img {
+	height: 600px;
+	display: table;
+	width: 100%;
+	background-size: cover;
+}
+
+.cover-text {
+	display: table-cell;
+	vertical-align: middle;
+  text-align: left;
+}
+
+.h-top-p1 {
+  font-size: 1.5rem;
+}
+
+.h-top-p2 {
+  font-size: 55px !important;
+  font-weight: bold;
+}
+
+.h-top-p3 {
+  font-size: 1.2rem;
+  font-weight: 100 !important;
+}
+
+.h-top-button {
+  margin-top: 4%;
+}
+
+/* マナブログコピペ */
+.h-box {
+  position: relative;
+}
+
+.h-top-text {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: white;
+  /* background-color: black; */
+  text-align: left;
+  width: 70%;
+}
+
+.h-top-text span.start {
+  margin-top: 50px !important;
+}
+
+
+/* *************** section1 *************** */
+.section-top {
+  width: 100%;
+  height: 540px;
+  background-size: cover;
+}
+
+.s1-box2 p, .s1-box3 p {
+  font-weight: 400 !important;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 1rem !important;
+  color: #484848;
+}
+
+/* *************** section2 *************** */
+.s2-box1, .s2-box2, .s2-box3, .s2-box4 {
+  background-color: #F7F7F7;
+}
+
+.s2-tx1, .s2-tx2, .s2-tx3, .s2-tx4 {
+  margin-top: 10%;
+  font-size: 1rem !important;
+}
+
+.s2-tx1 p, .s2-tx2 p, .s2-tx3 p, .s2-tx4 p {
+  margin-top: 10%;
+}
+
+.slider01 {
+  margin: 100px auto;
+  width:97%;
+  position: relative !important;
+}
+
+.slider01 img {
+  height: 472px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slick-next {
+  right: 0 !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+}
+
+.slick-arrow {
+  z-index: 2 !important;
+}
+
+.slick-next::before {
+  font-size: 35px !important;
+  opacity: 1 !important;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.6));
+}
+
+.slick-prev::before {
+  font-size: 35px !important;
+  opacity: 1 !important;
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.6));
+}
+
+/* *************** section3 *************** */
+.s-3 {
+  margin-top: 10%;
+  /* color: white; */
+  font-weight: bolder;
+  position: relative;
+}
+
+.s3-h1, .s3-number, .s3-where,.s3-calc {
+  margin-top: 1rem !important;
+}
+
+.s3-h1 {
+  font-size: 18px;
+}
+
+.s3-title, .form-control, .form-group::placeholder {
+  font-size: 24px !important;
+}
+
+.s3-where label {
+  font-size: 24px;
+}
+
+.s3-container {
+  position: relative;
+  height:465px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.595) 50%),url(img/img-house.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.s3-h1, .s3-title, .s3-calc, .s3-calc-text, .s3-where label, .s3-calc-text a {
+  color: white;
+}
+
+.s3-calc {
+  font-size: 24px;
+}
+
+.s3-box {
+  position: absolute;
+  top:10px;
+  margin-left: 2.5rem;
+}
+
+.s3-calc-text a, .s3-calc-text a:hover{
+  color: white;
+  text-decoration: underline;
+  margin-left: 50px;
+}
+
+.s3-group {
+  display: flex;
+  margin-top: 20px;
+}
+
+span.red {
+  color: #E41E51;
+}
+
+/* select box */
+.s-3 .form-control {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+  border-bottom: 2px solid white !important;
+  border-radius: 0px !important;
+  width: 15rem !important;
+}
+
+.s-3 .form-group input::placeholder{
+  color: white !important;
+}
+
+.s-3 .select {
+  border-bottom: 2px solid white;
+}
+
+span.msg, span.choose {
+  padding: 5px 0 10px;
+  display: inherit
+}
+
+.select-container {
+  width: 500px;
+  margin: 50px auto 0;
+  text-align: center
+}
+
+
+/* *************** section4 *************** */
+.s4-tx1, .s4-tx2, .s4-tx3, .s4-tx4 {
+  margin-top: 5%;
+}
+
+.s4-tx1 p, .s4-tx2 p, .s4-tx3 p, .s4-tx4 p {
+  margin-top: 5%;
+}
+
+.slider02 {
+  margin-top: 5% !important;
+}
+
+.slider02 img {
+  height: 200px;
+  width: 325px !important;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.s4-box1, .s4-box2, .s4-box3, .s4-box4 {
+  /* width: 100% !important; */
+  display: block;
+}
+
+/* *************** section5 *************** */
+.s5-box {
+  margin-top: 5%;
+}
+
+.s5-text {
+  font-weight: 400 !important;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 1rem !important;
+  color: #484848;
+}
+
+.s-5 a {
+  color: black !important;
+  text-decoration: underline;
+}
+
+.s5-a {
+  margin-top: 1rem !important
+}
+
+.s-5 h2 {
+  margin-bottom: 1.5rem !important;
+} 
+
+/* *************** section6 *************** */
+.s-6 {
+  position: relative;
+  height:550px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.595) 50%),url(img/img1.jpg);
+  background-size: cover;
+}
+
+.s6-box {
+  position: absolute;
+  top:30%;
+  left: 5%;
+  color: white;
+}
+
+.s6-button {
+  margin-top: 10%;;
+}
+
+/* *************** section7 *************** */
+.s7-box2 {
+  width: 20rem !important;
+}
+
+.s7-check {
+  margin-top: 10px !important;
+  margin-left: 7px;
+  display: flex;
+}
+
+.check-text {
+  margin-left: 20px;
+  font-size: 12px;
+  color:#222222;
+}
+
+.mail {
+  border-radius: 8px 8px 0px 0px !important;
+}
+
+.tel {
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+.s7-form {
+  position:relative;
+}
+
+.s7-form-mail label {
+  color: #909090 !important;
+  position: absolute;
+  top: 2px;
+  left: 15px;
+}
+
+.s7-form-tel label {
+  color: #909090 !important;
+  position: absolute;
+  top: 49px;
+  left: 15px;
+}
+
+.active {
+  transform: translateY(12px);
+}
+
+input:focus {
+  border: 2px solid black !important;
+  border-radius: 8px !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.register-button {
+  background-color: #222323 !important;
+  padding: 15px 30px 15px !important;
+  border-radius: 10px !important;
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.s7-register {
+  margin-top: 2rem !important;  
+}
+
+.s7-register p {
+  font-size: 0.8rem !important;
+  color: #909090 !important;
+  margin-top: 2rem !important;
+}
+
+::placeholder {
+  color: #909090 !important;
+  font-size: 16px;
+}
+
+
+/* ***************メニューバー*************** */
+
+/* ***************メニューバー*************** */
+
+
+/* *************** フッター *************** */
+footer {
+  margin: 5% !important;
+}
+
+.f-box1, .f-box2, .f-box3, .f-box4 {
+  height: auto;
+}
+
+.f-menu-1, .f-menu-2, .f-menu-3, .f-menu-4 {
+  height: auto;
+}
+
+.f-nav a {
+ color: #282828;
+ font-weight: normal !important;
+}
+
+.f-nav a:hover {
+ color:#282828 !important;
+}
+
+.f-nav ul {
+  line-height: 2rem !important;
+}
+
+.f-text a, .f-menu a {
+  font-weight: normal !important;
+  color: #282828;
+}
+
+.f-text a:hover, .f-menu a:hover {
+  color: #282828 !important;
+}
+
+.f-text {
+  font-weight: normal !important;
+  text-align: center;
+  margin-top: 1rem !important;
+}
+
+.footer i {
+  color: black;
+  font-size: 20px;
+}
+
+.f-lang-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.f-social {
+  margin-left: 3rem;
+}
+
+.f-social i {
+  margin-left: 1rem;
+}
+
+.f-lang i {
+  font-size: 12px;
+}
+
+.f-lang a {
+  color: black !important;
+  text-decoration: underline;
+}
